@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
+
+:root {
+  /** Colours */
+  --c-green: #92CA58;
+  --c-greentrans: rgba(122,202,88,0.9);
+  --c-darkgreentrans: rgba(103, 152,52,0.9);
+  --c-drakgreen:rgb(103, 152,52);
+  --c-gray: #707070;
+  
+
+  --c-primary: var(--c-green);
+  --c-secondary: var(--c-gray);
+  --c-tertiary: #558054;
+  --c-quaternary: var();
+  --c-quinary: var();
+
+  /** Fonts */
+  --f-body: 'Source Sans Pro';
+  --f-heading: 'Source Sans Pro';
+
+  /** Grid */
+  --gutter: 1rem;
+}

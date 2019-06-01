@@ -1,0 +1,145 @@
+.grid-16 {
+    --cols: 12;
+    /* grid met 16 kolommen */
+  }
+  
+  .container { 
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    padding: var(--gutter);
+  }
+  
+  .row {
+    --col-01: calc(100% * 1 / var(--cols, 12));
+    --col-02: calc(100% * 2 / var(--cols, 12));
+    --col-03: calc(100% * 3 / var(--cols, 12));
+    --col-04: calc(100% * 4 / var(--cols, 12));
+    --col-05: calc(100% * 5 / var(--cols, 12));
+    --col-06: calc(100% * 6 / var(--cols, 12));
+    --col-07: calc(100% * 7 / var(--cols, 12));
+    --col-08: calc(100% * 8 / var(--cols, 12));
+    --col-09: calc(100% * 9 / var(--cols, 12));
+    --col-10: calc(100% * 10 / var(--cols, 12));
+    --col-11: calc(100% * 11 / var(--cols, 12));
+    --col-12: calc(100% * 12 / var(--cols, 12));
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    box-sizing: border-box;
+    flex: 1 1 auto;
+  }
+  
+  .col,
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    box-sizing: border-box;
+    padding: var(--gutter);
+  }
+  
+  .col-1 {
+    flex: 0 0 var(--col-01);
+  }
+  
+  .col-2 {
+    flex: 0 0 var(--col-02);
+  }
+  
+  .col-3 {
+    flex: 0 0 var(--col-03);
+  }
+  
+  .col-4 {
+    flex: 0 0 var(--col-04);
+  }
+  
+  .col-5 {
+    flex: 0 0 var(--col-05);
+  }
+  
+  .col-6 {
+    flex: 0 0 var(--col-06);
+  }
+  
+  .col-7 {
+    flex: 0 0 var(--col-07);
+  }
+  
+  .col-8 {
+    flex: 0 0 var(--col-08);
+  }
+  
+  .col-9 {
+    flex: 0 0 var(--col-09);
+  }
+  
+  .col-10 {
+    flex: 0 0 var(--col-10);
+  }
+  
+  .col-11 {
+    flex: 0 0 var(--col-11);
+  }
+  
+  .col-12 {
+    flex: 0 0 var(--col-12);
+  }
+  .offset-1 {
+    margin-left: var(--col-01);
+  }
+  
+  .offset-2 {
+    margin-left: var(--col-02);
+  }
+  
+  .offset-3 {
+    margin-left: var(--col-03);
+  }
+  
+  .offset-4 {
+    margin-left: var(--col-04);
+  }
+  
+  .offset-5 {
+    margin-left: var(--col-05);
+  }
+  
+  .offset-6 {
+    margin-left: var(--col-06);
+  }
+  
+  .offset-7 {
+    margin-left: var(--col-07);
+  }
+  
+  .offset-8 {
+    margin-left: var(--col-08);
+  }
+  
+  .offset-9 {
+    margin-left: var(--col-09);
+  }
+  
+  .offset-10 {
+    margin-left: var(--col-10);
+  }
+  
+  .offset-11 {
+    margin-left: var(--col-11);
+  }
+  
+  .offset-12 {
+    margin-left: var(--col-12);
+  }

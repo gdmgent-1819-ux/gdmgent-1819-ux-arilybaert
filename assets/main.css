@@ -1,0 +1,310 @@
+@import url('components/grid.css');
+@import url('variables.css');
+
+/*************** BACKGROUND WALLPAPER******************/
+body { 
+    padding: 0;
+    margin: 0;
+ }
+
+header {
+    background-image: url('pictures/nathan-dumlao-291783-unsplash.jpg');
+    background-size: cover;
+    height: 95vh;
+    background-position: 100% 70%;
+    
+}
+.backgrounddiv img {
+
+    height: auto;
+    width: 100%;
+}
+.background {
+    
+    object-fit: cover
+}
+/********************* NAV ************************/
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: var(--c-green);
+    text-decoration: underline;
+}
+
+
+/****************** ORDER BUTTONS ********************/
+.checkBar {
+    padding: 20px;
+    background-color: white;
+    margin: 60vh auto 0;
+    border-radius: 11px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    -ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+    align-items: center;
+    box-shadow: 2px 3px 11px 0px rgba(77,70,77,1);
+    
+}
+/****************** ORDER BUTTONS (king) ********************/
+
+.checkBarSuite {
+    padding: 20px;
+    background-color: white;
+    border-radius: 11px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    -ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+    align-items: center;
+    box-shadow: 2px 3px 11px 0px rgba(77,70,77,1);
+}
+.button {
+    border-radius: 11px;
+    width: 206px;
+    height: 74px;
+    border: 1px solid var(--c-green);
+    display: flex;
+}
+.check {
+    background-color: var(--c-green);
+    display: flex;
+    -ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+    justify-content: space-evenly;
+	align-items: center
+}
+.checkbutton{
+    color: white;
+    font-size: 37px;
+}
+.textbutton {
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    color: var(--c-gray);
+    font-size: 24px;
+    padding-left: 10%;
+    padding-right: 50%;
+}
+.icon {
+    height: 37px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+   padding-top: 20px;
+}
+.checkbartext {
+    width: 70%;
+}
+.checkbarimg {
+    width: 30%;
+    display: flex;
+}
+
+
+/************** SUITES TEXT INFO SECTION *****************/
+
+h1 {
+    font-family: var(--f-body);
+    font-size: 55px;
+    text-align: center;
+    margin: 0;
+    padding: 3vh;
+}
+h2 {
+    font-family: var(--f-body);
+    font-size: 41px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.text {
+    padding-top: 30px;
+    margin: 0 auto;
+}
+p {
+    font-family: var(--f-body);
+
+}
+
+/***************** JACK QUEEN KING SUITES WALLPAPER ********************/
+ .suites {
+     height: 271px;
+    }
+.jack {
+        background-image: url('pictures/jack.jpg');
+        background-size: cover;
+        height: 100%;
+        border-radius: 11px;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        
+    }
+.queen {
+        background-image: url('pictures/queen.jpg');
+        background-size: cover;
+        height: 100%;
+        border-radius: 11px;
+        position: relative;
+        padding: 0;
+        margin: 0;
+}
+.king {
+    background-image: url('pictures/king.jpg');
+    background-size: cover;
+    height: 100%;
+        border-radius: 11px;
+        position: relative;
+        padding: 0;
+        margin: 0;
+
+}
+.titles {
+    color: white;
+    background-color: var(--c-green);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    font-family: var(--f-body);
+    font-size: 28px;
+}
+/* amenities button section*/
+.breakfast {
+        background-image: url('pictures/breakfast.jpg');
+        background-size: cover;
+        height: 100%;
+        border-radius: 11px;
+        position: relative;
+        padding: 0;
+        margin: 0;
+}
+.cleaning {
+        background-image: url('pictures/cleaning.jpg');
+        background-size: cover;
+        height: 100%;
+        border-radius: 11px;
+        position: relative;
+        padding: 0;
+        margin: 0;
+}
+.parking {
+        background-image: url('pictures/parking.jpg');
+        background-size: cover;
+        height: 100%;
+        border-radius: 11px;
+        position: relative;
+        padding: 0;
+        margin: 0;
+}
+.wifi {
+        background-image: url('pictures/wifi.jpg');
+        background-size: cover;
+        height: 100%;
+        border-radius: 11px;
+        position: relative;
+        padding: 0;
+        margin: 0;
+}
+
+
+/********************** FOOTER ************************/
+
+.backgroundfooter {
+    height: 340px;
+    background-color: var(--c-gray);
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    color: white;
+    
+}
+.titlefooter {
+    font-size: 32px;
+    font-weight: bold;
+}
+.subtitle {
+    font-weight: 550;
+    font-size: 22px;
+    
+}
+
+
+/********************** DIFFERENT SUITES TAB ************************/
+
+
+.suitestab{
+    font-weight: 300;
+    color: var(--c-gray);
+}
+.center {
+    text-align: left;
+    color: black
+}
+
+
+/********************** KING SUITES TAB ************************/
+
+.kingpageimg {
+    height: 400px;
+    border-radius: 11px;
+
+}
+
+.kingsuitedetails {
+    font-size: 23px;
+    line-height: 150%;
+    color: white;
+    background-color: var(--c-green);
+    height: 400px;
+    box-sizing: border-box;
+    padding: 5vh;
+    margin: 0;
+    border-radius: 11px;
+}
+.kingsuiteprice {
+    font-size: 23px;
+    line-height: 150%;
+    color: white;
+    background-color: var(--c-tertiary);
+    height: 400px;
+    box-sizing: border-box;
+    padding: 5vh;
+    margin: 0;
+    border-radius: 11px;
+}
+.greenbackgroundcolor {
+    background-color: var(--c-green);
+    width: 100%;
+}
+
+
+
+#maxwidth {
+    width: 100vw;
+}
+
+
+
+/**************** Stylesheet ******************/
+.centertext {
+    text-align: center;
+}
+.links {
+    background-color: var(--c-gray);
+    padding: 5px;
+}
