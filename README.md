@@ -2,7 +2,7 @@
 
 - Voornaam:Ari
 - Familienaam: Lybaert
-- Studentnummer: 
+- Studentnummer: 105047
 - Klasgroep: 1MMPAa
 - UX prototype link: 
     1 mobile: https://xd.adobe.com/view/c50e20ce-19e4-4e59-5324-21a99401367b-b33f/?fullscreen
